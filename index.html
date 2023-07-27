@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="d-none" id="navBar">
+    <div class="p-4 container d-flex justify-content-between align-items-center">
+      <a href="#" class="text-decoration-none text-white fw-bold fs-3">SMART LOGIN</a>
+      <button class="btn btn-outline-warning" id="Logout">Logout</button>
+    </div>
+  </nav>
+  <section class="p-5">
+    <div class="container">
+      <div class="d-none justify-content-center align-items-center py-5" id="Login">
+        <div class="w-75 shadow-d p-5">
+          <h1 class="text-center  text-info">Smart Login System</h1>
+          <input type="email" placeholder="Enter your email" id="emailLogin" class="form-control text-white my-4">
+          <p class="text-danger text-center d-none " id="checkEmailL">Please, Enter your email</p>
+          <input type="password" placeholder="Enter your password" id="passwordLogin" class="form-control text-white my-4">
+          <p class="text-danger text-center d-none " id="checkPasswordL">Please, Enter your password</p>
+          <p class="text-danger text-center d-none" id="Check">incorrect email or password</p>
+          <button class="btn btn-outline-info w-100" id="buttonLogin">Login</button>
+          <p class="text-white pt-3 fs-6 text-center">Don’t have an account? <a href="#" class="text-white"
+              id="signUp">Sign Up</a>
+          </p>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center align-items-center py-5" id="Regester">
+        <div class="w-75 shadow-d p-5">
+          <h1 class="text-center  text-info">Smart Login System</h1>
+          <input type="text" placeholder="Enter your name" id="name" class="form-control text-white my-4">
+          <p class="text-danger text-center d-none " id="checkName">Please, Enter your name</p>
+          <input type="email" placeholder="Enter your email" id="emailRegester" class="form-control text-white my-4">
+          <p class="text-danger text-center d-none " id="checkE-mailR">Please Enter your email</p>
+          <input type="password" placeholder="Enter your password" id="passwordRegester"
+            class="form-control text-white my-4">
+          <p class="text-danger text-center d-none " id="checkPassword">Please Enter your password</p>
+          <button class="btn btn-outline-info w-100" id="buttonRegester">Sign Up</button>
+          <p class="text-white pt-3 fs-6 text-center">You have an account? <a href="#" class="text-white"
+              id="signIn">Sign In</a>
+          </p>
+        </div>
+      </div>
+    </div>
+      <div class="row g-5 d-none" id="row">
+      </div>
+
+  </section>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

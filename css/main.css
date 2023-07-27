@@ -1,0 +1,29 @@
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #24353f;
+}
+.shadow-d{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  background-color: #24353f;
+}
+#navBar{
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  background-color: #24353f;
+}
+input{
+  background-color: #24353f !important ;
+}
+input:focus{
+  border: #24353f 1px solid !important;
+}
+input::placeholder
+{
+  color: rgb(165, 161, 161) !important;
+}
+a
+{
+  text-decoration: none;
+  transition: all 0.5s;
+}
